@@ -1,0 +1,14 @@
+// PrototypeSTL - STL-compatible <functional> replacement
+// Usage: #include "functors/functional" or #include <prototype/functors/*.hpp>
+#ifndef PROTOTYPE_COMPAT_FUNCTIONAL
+#define PROTOTYPE_COMPAT_FUNCTIONAL
+
+#include "../include/prototype/functors/comparators.hpp"
+#include "../include/prototype/functors/arithmetic.hpp"
+#include "../include/prototype/functors/logical.hpp"
+#include "../include/prototype/functors/function.hpp"
+#include "../include/prototype/functors/hash.hpp"
+
+using namespace prototype::functors;
+
+#endif // PROTOTYPE_COMPAT_FUNCTIONAL

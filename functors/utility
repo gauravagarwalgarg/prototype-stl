@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <utility> replacement
+// Usage: #include "functors/utility" or #include <prototype/utility/utility.hpp>
+#ifndef PROTOTYPE_COMPAT_UTILITY
+#define PROTOTYPE_COMPAT_UTILITY
+
+#include "../include/prototype/utility/utility.hpp"
+
+using namespace prototype;
+
+#endif // PROTOTYPE_COMPAT_UTILITY
