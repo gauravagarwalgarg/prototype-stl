@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <numeric> replacement
+// Usage: #include "algorithms/numeric" or #include <prototype/algorithms/numeric.hpp>
+#ifndef PROTOTYPE_COMPAT_NUMERIC
+#define PROTOTYPE_COMPAT_NUMERIC
+
+#include "../include/prototype/algorithms/numeric.hpp"
+
+using namespace prototype::algorithms;
+
+#endif // PROTOTYPE_COMPAT_NUMERIC

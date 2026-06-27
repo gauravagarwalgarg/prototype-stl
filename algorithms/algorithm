@@ -1,0 +1,19 @@
+// PrototypeSTL - STL-compatible <algorithm> replacement
+// Usage: #include "algorithms/algorithm" or #include <prototype/algorithms/*.hpp>
+#ifndef PROTOTYPE_COMPAT_ALGORITHM
+#define PROTOTYPE_COMPAT_ALGORITHM
+
+#include "../include/prototype/algorithms/sort.hpp"
+#include "../include/prototype/algorithms/find.hpp"
+#include "../include/prototype/algorithms/copy.hpp"
+#include "../include/prototype/algorithms/fill.hpp"
+#include "../include/prototype/algorithms/transform.hpp"
+#include "../include/prototype/algorithms/partition.hpp"
+#include "../include/prototype/algorithms/merge.hpp"
+#include "../include/prototype/algorithms/rotate.hpp"
+#include "../include/prototype/algorithms/compare.hpp"
+#include "../include/prototype/algorithms/heap.hpp"
+
+using namespace prototype::algorithms;
+
+#endif // PROTOTYPE_COMPAT_ALGORITHM
