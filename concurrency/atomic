@@ -1,0 +1,12 @@
+// PrototypeSTL - STL-compatible <atomic> replacement
+// Usage: #include "concurrency/atomic" or #include <prototype/concurrency/atomic.hpp>
+#ifndef PROTOTYPE_COMPAT_ATOMIC
+#define PROTOTYPE_COMPAT_ATOMIC
+
+#include "../include/prototype/concurrency/atomic.hpp"
+#include "../include/prototype/concurrency/spinlock.hpp"
+#include "../include/prototype/concurrency/spsc_queue.hpp"
+
+using namespace prototype::concurrency;
+
+#endif // PROTOTYPE_COMPAT_ATOMIC
