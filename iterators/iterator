@@ -1,0 +1,13 @@
+// PrototypeSTL - STL-compatible <iterator> replacement
+// Usage: #include "iterators/iterator" or #include <prototype/iterators/*.hpp>
+#ifndef PROTOTYPE_COMPAT_ITERATOR
+#define PROTOTYPE_COMPAT_ITERATOR
+
+#include "../include/prototype/iterators/iterator_traits.hpp"
+#include "../include/prototype/iterators/reverse_iterator.hpp"
+#include "../include/prototype/iterators/move_iterator.hpp"
+#include "../include/prototype/iterators/operations.hpp"
+
+using namespace prototype::iterators;
+
+#endif // PROTOTYPE_COMPAT_ITERATOR
