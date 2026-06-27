@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <list> replacement
+// Usage: #include "containers/list" or #include <prototype/containers/list.hpp>
+#ifndef PROTOTYPE_COMPAT_LIST
+#define PROTOTYPE_COMPAT_LIST
+
+#include "../include/prototype/containers/list.hpp"
+
+using prototype::list;
+
+#endif // PROTOTYPE_COMPAT_LIST

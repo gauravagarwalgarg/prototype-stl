@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <span> replacement
+// Usage: #include "containers/span" or #include <prototype/containers/span.hpp>
+#ifndef PROTOTYPE_COMPAT_SPAN
+#define PROTOTYPE_COMPAT_SPAN
+
+#include "../include/prototype/containers/span.hpp"
+
+using prototype::span;
+
+#endif // PROTOTYPE_COMPAT_SPAN

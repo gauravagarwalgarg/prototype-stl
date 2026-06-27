@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <deque> replacement
+// Usage: #include "containers/deque" or #include <prototype/containers/deque.hpp>
+#ifndef PROTOTYPE_COMPAT_DEQUE
+#define PROTOTYPE_COMPAT_DEQUE
+
+#include "../include/prototype/containers/deque.hpp"
+
+using prototype::deque;
+
+#endif // PROTOTYPE_COMPAT_DEQUE

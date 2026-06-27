@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <array> replacement
+// Usage: #include "containers/array" or #include <prototype/containers/array.hpp>
+#ifndef PROTOTYPE_COMPAT_ARRAY
+#define PROTOTYPE_COMPAT_ARRAY
+
+#include "../include/prototype/containers/array.hpp"
+
+using prototype::array;
+
+#endif // PROTOTYPE_COMPAT_ARRAY

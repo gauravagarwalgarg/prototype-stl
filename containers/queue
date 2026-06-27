@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <queue> replacement
+// Usage: #include "containers/queue" or #include <prototype/containers/queue.hpp>
+#ifndef PROTOTYPE_COMPAT_QUEUE
+#define PROTOTYPE_COMPAT_QUEUE
+
+#include "../include/prototype/containers/queue.hpp"
+
+using prototype::queue;
+
+#endif // PROTOTYPE_COMPAT_QUEUE

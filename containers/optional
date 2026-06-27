@@ -1,0 +1,11 @@
+// PrototypeSTL - STL-compatible <optional> replacement
+// Usage: #include "containers/optional" or #include <prototype/containers/optional.hpp>
+#ifndef PROTOTYPE_COMPAT_OPTIONAL
+#define PROTOTYPE_COMPAT_OPTIONAL
+
+#include "../include/prototype/containers/optional.hpp"
+
+using prototype::optional;
+using prototype::nullopt;
+
+#endif // PROTOTYPE_COMPAT_OPTIONAL

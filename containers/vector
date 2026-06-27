@@ -1,0 +1,11 @@
+// PrototypeSTL - STL-compatible <vector> replacement
+// Usage: #include "containers/vector" or #include <prototype/containers/vector.hpp>
+#ifndef PROTOTYPE_COMPAT_VECTOR
+#define PROTOTYPE_COMPAT_VECTOR
+
+#include "../include/prototype/containers/vector.hpp"
+
+using prototype::vector;
+using prototype::fixed_vector;
+
+#endif // PROTOTYPE_COMPAT_VECTOR

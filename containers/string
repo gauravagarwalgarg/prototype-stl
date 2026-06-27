@@ -1,0 +1,11 @@
+// PrototypeSTL - STL-compatible <string> replacement
+// Usage: #include "containers/string" or #include <prototype/containers/string.hpp>
+#ifndef PROTOTYPE_COMPAT_STRING
+#define PROTOTYPE_COMPAT_STRING
+
+#include "../include/prototype/containers/string.hpp"
+
+using prototype::string;
+using prototype::fixed_string;
+
+#endif // PROTOTYPE_COMPAT_STRING

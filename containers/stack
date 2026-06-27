@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <stack> replacement
+// Usage: #include "containers/stack" or #include <prototype/containers/stack.hpp>
+#ifndef PROTOTYPE_COMPAT_STACK
+#define PROTOTYPE_COMPAT_STACK
+
+#include "../include/prototype/containers/stack.hpp"
+
+using prototype::stack;
+
+#endif // PROTOTYPE_COMPAT_STACK

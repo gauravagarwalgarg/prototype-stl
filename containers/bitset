@@ -1,0 +1,10 @@
+// PrototypeSTL - STL-compatible <bitset> replacement
+// Usage: #include "containers/bitset" or #include <prototype/containers/bitset.hpp>
+#ifndef PROTOTYPE_COMPAT_BITSET
+#define PROTOTYPE_COMPAT_BITSET
+
+#include "../include/prototype/containers/bitset.hpp"
+
+using prototype::bitset;
+
+#endif // PROTOTYPE_COMPAT_BITSET
