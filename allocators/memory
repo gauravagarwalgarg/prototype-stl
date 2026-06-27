@@ -1,0 +1,14 @@
+// PrototypeSTL - STL-compatible <memory> replacement
+// Usage: #include "allocators/memory" or #include <prototype/allocators/*.hpp>
+#ifndef PROTOTYPE_COMPAT_MEMORY
+#define PROTOTYPE_COMPAT_MEMORY
+
+#include "../include/prototype/allocators/allocator.hpp"
+#include "../include/prototype/allocators/memory_arena.hpp"
+#include "../include/prototype/allocators/arena_allocator.hpp"
+#include "../include/prototype/allocators/pool_allocator.hpp"
+#include "../include/prototype/allocators/stack_allocator.hpp"
+
+using namespace prototype::allocators;
+
+#endif // PROTOTYPE_COMPAT_MEMORY
