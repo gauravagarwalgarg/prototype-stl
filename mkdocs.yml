@@ -75,6 +75,15 @@ nav:
     - static_map: containers/static-map.md
     - stack: containers/stack.md
     - queue: containers/queue.md
+  - Advanced Data Structures:
+    - Overview: advanced/overview.md
+    - Hash Map: advanced/hash-map.md
+    - Disjoint Set: advanced/disjoint-set.md
+    - Graph: advanced/graph.md
+    - Bloom Filter: advanced/bloom-filter.md
+    - Trie: advanced/trie.md
+    - Skip List: advanced/skip-list.md
+    - LRU Cache: advanced/lru-cache.md
   - Algorithms:
     - Overview: algorithms/overview.md
     - Sorting: algorithms/sorting.md

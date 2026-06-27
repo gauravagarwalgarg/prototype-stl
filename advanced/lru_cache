@@ -1,0 +1,2 @@
+// Wrapper header for prototype::fixed_lru_cache
+#include "include/prototype/advanced/lru_cache.hpp"

@@ -1,0 +1,2 @@
+// Wrapper header for prototype::fixed_graph
+#include "include/prototype/advanced/graph.hpp"

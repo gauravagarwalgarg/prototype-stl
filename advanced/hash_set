@@ -1,0 +1,2 @@
+// Wrapper header for prototype::fixed_hash_set
+#include "include/prototype/advanced/hash_set.hpp"

@@ -1,0 +1,2 @@
+// Wrapper header for prototype::fixed_disjoint_set
+#include "include/prototype/advanced/disjoint_set.hpp"

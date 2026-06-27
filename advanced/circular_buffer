@@ -1,0 +1,2 @@
+// Wrapper header for prototype::fixed_circular_buffer
+#include "include/prototype/advanced/circular_buffer.hpp"

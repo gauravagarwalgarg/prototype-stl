@@ -1,0 +1,2 @@
+// Wrapper header for prototype::fixed_hash_map
+#include "include/prototype/advanced/hash_map.hpp"

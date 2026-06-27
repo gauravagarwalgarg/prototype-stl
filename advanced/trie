@@ -1,0 +1,2 @@
+// Wrapper header for prototype::fixed_trie
+#include "include/prototype/advanced/trie.hpp"

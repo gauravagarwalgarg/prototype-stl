@@ -41,6 +41,9 @@
 #include "algorithms/partition.hpp"
 #include "algorithms/rotate.hpp"
 #include "algorithms/merge.hpp"
+#include "algorithms/binary_search.hpp"
+#include "algorithms/minmax.hpp"
+#include "algorithms/set_operations.hpp"
 
 // Containers
 #include "containers/array.hpp"
@@ -71,5 +74,26 @@
 #include "concurrency/atomic.hpp"
 #include "concurrency/spinlock.hpp"
 #include "concurrency/spsc_queue.hpp"
+
+// Core
+#include "core/tuple.hpp"
+#include "core/numeric_limits.hpp"
+#include "core/ratio.hpp"
+#include "core/chrono.hpp"
+#include "core/any.hpp"
+#include "core/expected.hpp"
+#include "core/string_view.hpp"
+
+// Advanced Data Structures
+#include "advanced/hash_map.hpp"
+#include "advanced/hash_set.hpp"
+#include "advanced/disjoint_set.hpp"
+#include "advanced/graph.hpp"
+#include "advanced/bloom_filter.hpp"
+#include "advanced/trie.hpp"
+#include "advanced/skip_list.hpp"
+#include "advanced/lru_cache.hpp"
+#include "advanced/circular_buffer.hpp"
+#include "advanced/priority_queue.hpp"
 
 #endif // PROTOTYPE_MASTER_HPP
