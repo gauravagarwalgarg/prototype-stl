@@ -1,5 +1,12 @@
 # PrototypeSTL
 
+[![CI](https://github.com/gauravagarwalgarg/prototype-stl/actions/workflows/ci.yml/badge.svg)](https://github.com/gauravagarwalgarg/prototype-stl/actions/workflows/ci.yml) [![Docs](https://img.shields.io/badge/docs-live-blue?logo=github)](https://gauravagarwalgarg.github.io/prototype-stl/) ![C++](https://img.shields.io/badge/C++-17/20/23-blue?logo=cplusplus&logoColor=white) [![License](https://img.shields.io/github/license/gauravagarwalgarg/prototype-stl)](https://github.com/gauravagarwalgarg/prototype-stl/blob/main/LICENSE)
+
+> 📖 **Documentation**: [https://gauravagarwalgarg.github.io/prototype-stl/](https://gauravagarwalgarg.github.io/prototype-stl/)
+>
+> 📦 **Repository**: [GitHub](https://github.com/gauravagarwalgarg/prototype-stl)
+
+
 **A high-performance, embedded-friendly C++ standard library alternative.**
 
 PrototypeSTL synthesizes the best ideas from three industry-proven libraries:
